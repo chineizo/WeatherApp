@@ -11,7 +11,7 @@ a 7-day weather forecast.
 
 Model View View Model architecture was leveraged in creating the application.  
 
-#Libraries
+# Libraries
 - `JetPack Componse`
 - `Temperature`
 
@@ -33,8 +33,12 @@ The Weather Details Activity shows:
 - `Wind Speedt`
 - `Wind Gust`
 - `Dew Point`
-#Future Work
+
+# Future Work
 Use Location API to return location information to feed into the weather api to show weather conditions anywhere.
 Use graphic icons to represent weather conditions
 For further optimization, add Dependency Injection library to provide the dependencies in the project
 
+![image](https://user-images.githubusercontent.com/438041/142350329-32087b26-dbca-455f-9ef2-fe2a4b7df733.png)
+
+![image](https://user-images.githubusercontent.com/438041/142350487-5a471212-e11c-462e-943a-11528f055c18.png)
