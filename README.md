@@ -33,6 +33,7 @@ The Weather Details Activity shows:
 - `Wind Speedt`
 - `Wind Gust`
 - `Dew Point`
+
 #Future Work
 Use Location API to return location information to feed into the weather api to show weather conditions anywhere.
 Use graphic icons to represent weather conditions
