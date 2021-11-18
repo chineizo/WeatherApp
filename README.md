@@ -38,3 +38,5 @@ Use Location API to return location information to feed into the weather api to 
 Use graphic icons to represent weather conditions
 For further optimization, add Dependency Injection library to provide the dependencies in the project
 
+![image](https://user-images.githubusercontent.com/438041/142350329-32087b26-dbca-455f-9ef2-fe2a4b7df733.png)
+
