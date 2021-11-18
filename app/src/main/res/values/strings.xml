@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="weather_detail">7 Day Weather Forecast</string>
+    <string name="loading_weather">Loading Weather Forecast</string>
+    <string name="atmospheric_pressure">Atmospheric pressure:</string>
+    <string name="wind_speed_direction">Wind speed/direction:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="location">Location:</string>
+    <string name="wind_speed">%1$.2f / %2$d</string>
+    <string name="see_weather_details">See Weather Details</string>
+    <string name="no_weather_data">No Weather Data Found!</string>
+    <string name="uv_index">UV Index %.2f</string>
+    <string name="wind_gust">Wind Gust %.2f m/h</string>
+    <string name="day_wind_speed">Wind Speed %.2f m/h</string>
+    <string name="dew_point">Dew Point %.2fF</string>
+    <string name="daily_humidity">Humidity %d%%</string>
+    <string name="daily_pressure">Pressure %dhPa</string>
+    <string name="evening">Evening %.2fF</string>
+    <string name="night">Night %.2fF</string>
+    <string name="day">Day  %.2fF</string>
+    <string name="morning">Morning %.2f</string>
+    <string name="day_temp">Temp:  %1$.2fF/ %2$.2fF</string>
+    <string name="weather">Weather:</string>
+    <string name="feels_like">Feels Like:</string>
+    <string name="today_feels_like">%.2f</string>
+</resources>
