@@ -8,6 +8,9 @@ import com.example.weatherforecastapp.repository.WeatherRepository
 import kotlinx.coroutines.Dispatchers.IO
 import java.lang.IllegalArgumentException
 
+/**
+ * View Model that offers logic to retrieve Weather Data from the Weather API
+ */
 class MainActivityViewModel(private val weatherRepository: WeatherRepository) : ViewModel() {
 
     /**

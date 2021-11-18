@@ -36,7 +36,6 @@ class WeatherDetailsActivity : ComponentActivity() {
         }
     }
 
-
     /**
      * A method that shows the Top App bar with title
      */
@@ -54,6 +53,9 @@ class WeatherDetailsActivity : ComponentActivity() {
         }
     }
 
+    /**
+     * Composable to display a list of Daily Weather items returned from the Weather Service API
+     */
     @Composable
     fun ShowWeatherDetails(dailyWeather: List<DailyWeather>?) {
         dailyWeather?.let { data ->
@@ -73,6 +75,9 @@ class WeatherDetailsActivity : ComponentActivity() {
         ).show()
     }
 
+    /**
+     * Composable that shows the Weather Items in the List
+     */
     @Composable
     fun WeatherItem(dailyWeather: DailyWeather) {
         val milliSeconds = 1000L
@@ -146,6 +151,4 @@ class WeatherDetailsActivity : ComponentActivity() {
 
         }
     }
-
-
 }

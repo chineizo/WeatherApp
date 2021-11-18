@@ -34,7 +34,6 @@ class MainActivity : ComponentActivity() {
         MainActivityViewModelFactory(ApplicationData.weatherRepository)
     }
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -77,6 +76,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    /**
+     * Composable to request WeatherData from the API. The response status is a sealed class
+     * with 3 states, Loading, Success and Failure
+     */
     @Composable
     private fun GetWeatherData(
         viewModel: MainActivityViewModel,
@@ -119,7 +122,7 @@ class MainActivity : ComponentActivity() {
     }
 
     /**
-     * Display the Review Details Activity of the Coffee Shop
+     * A function to Launch the Weather Details Activity that shows 7 Day weather forecast in New York
      */
     private fun launchDetailsActivity(weatherData: WeatherData) {
         val intent = Intent(this, WeatherDetailsActivity::class.java).apply {
@@ -128,6 +131,9 @@ class MainActivity : ComponentActivity() {
         startActivity(intent)
     }
 
+    /**
+     * Composable method that binds the Weather Data to the UI elements
+     */
     @Composable
     private fun ShowWeatherData(
         weatherData: WeatherData,
